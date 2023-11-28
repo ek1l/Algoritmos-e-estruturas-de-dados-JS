@@ -49,7 +49,7 @@ function dec2Bin(decNumber) {
 
   while (decNumber > 0) {
     rest = Math.floor(decNumber % 2);
-    restStack.push(rest); //[1]
+    restStack.push(rest);  
     decNumber = Math.floor(decNumber / 2);
   }
 
@@ -60,7 +60,7 @@ function dec2Bin(decNumber) {
   return binaryString;
 }
 
-console.log(dec2Bin(23));
+ 
 
 // Função que transforma decimal para qualquer base
 
@@ -83,4 +83,5 @@ function baseConverter(decNumber, base) {
   return baseString;
 }
 
-console.log(baseConverter(50, 2));
+console.log(baseConverter(500, 2));
+
