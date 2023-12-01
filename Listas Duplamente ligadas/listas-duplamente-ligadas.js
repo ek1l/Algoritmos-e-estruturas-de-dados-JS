@@ -154,4 +154,3 @@ function DoublyLinkedList() {
     console.log(this.toString());
   };
 }
- 
